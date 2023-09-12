@@ -37,12 +37,14 @@ div.menu ul li a:hover  {
     color: #4d5791;
 }
 
+
 /* Style for the container holding the centered image */
 .centered-image-container {
     display: flex;
     justify-content: center; /* Horizontally center the content */
     align-items: center; /* Vertically center the content */
-    height: 300px; /* Set the desired height */
+    height: 100px; /* Set the desired height */
+    width: 100px;
 }
 
 /* Style for the image */
