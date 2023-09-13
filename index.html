@@ -26,14 +26,14 @@
     <!-- This is a Semantic HTML Change -->
     <header>
         <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="/">Homepage</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/login.html">Login</a></li>
-                    <li><a href="https://google.com">Google</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <!-- This is an A11y Change -->
+                <li><a href="/pb/" aria-label="Go to Home Page">Home</a></li>
+                <li><a href="/pb/about.html" aria-label="Learn about Personal Budget">About</a></li>
+                <li><a href="/pb/login.html" aria-label="Login to Personal Budget">Login</a></li>
+                <li><a href="https://google.com">Google</a></li>
+                
+            </ul>
         </div>
     
         <main>
