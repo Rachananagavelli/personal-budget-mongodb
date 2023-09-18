@@ -55,13 +55,6 @@ app.get('/budget',(req,res) => {
       });
 });
 
-app.get('/', (req, res) => {
-    res.send('hello world!');
-});
-
-app.use('/budget', (req, res) => {
-    res.sendFile("server.js");
-})
 
 app.listen(port, () => {
     console.log('Example app listening at http://localhost:${port}');
