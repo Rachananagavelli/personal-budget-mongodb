@@ -3,7 +3,6 @@ const app = express();
 const fs = require('fs');
 const port = 3000;
 const data = require("./budget.json");
-const data = require("./server.json");
 
 app.use('/',express.static('public'));
 
